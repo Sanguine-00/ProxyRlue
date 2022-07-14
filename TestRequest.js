@@ -17,9 +17,6 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         return request;
     }
-     magicJS.logError(`出去了`)
-    
-    window.alert(`出去了`)
     if (request) {
         magicJS.done(request);
     } else {
