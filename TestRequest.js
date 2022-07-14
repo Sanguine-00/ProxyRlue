@@ -11,9 +11,6 @@ let magicJS = MagicJS(scriptName, "INFO");
     magicJS.notify("isRequest");
     magicJS.log(magicJS.request)
   } else {
-    magicJS.write(currentUserInfoKey, "");
-    magicJS.write(blockedUsersKey, "");
-    magicJS.write(keywordBlockKey, "");
     magicJS.notify("知乎助手数据清理完毕");
   }
   if (response) {
