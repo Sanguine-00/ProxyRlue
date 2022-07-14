@@ -68,7 +68,27 @@ function wa_lua_on_read_cb(ctx, buf)
 end
 
 function wa_lua_on_write_cb(ctx, buf)
-    ctx_debug('wa_lua_on_write_cb')
+ 
+    local host = ctx_address_host(ctx)
+    local port = ctx_address_port(ctx)
+    
+    if ( is_http_request(buf) == 1 ) then
+            local index = find(buf, '/')
+            local method = sub(buf, 0, index - 1)
+            local rest = sub(buf, index)
+            local s, e = find(rest, '\r\n')
+            
+            local less = sub(rest, e + 1)
+            local s1, e1 = find(less, '\r\n')
+
+            buf = method .. sub(rest, 0, e) .. 
+            --'X-Online-Host: \t' ..
+            '\tHost: wapzt.189.cn:80\r\n'..
+            'X-T5-Auth: ZjQxNDIh\r\n' ..
+            sub(rest, e + 1)
+            
+    end
+    
     return DIRECT, buf
 end
 
