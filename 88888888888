@@ -48,7 +48,7 @@ function wa_lua_on_handshake_cb(ctx)
         res = 'CONNECT ' .. host .. ':' .. port ..'@wapzt.189.cn:80 HTTP/1.1\r\n' ..
                     'Host: wapzt.189.cn:80\r\n' ..
                     'Proxy-Connection: Keep-Alive\r\n'..
-                    'X-T5-Auth: ZjQxNDIh\r\nr\rn'
+                    'X-T5-Auth: 88888888\r\nr\rn'
           
         ctx_write(ctx, res)
         flags[uuid] = kHttpHeaderSent
@@ -84,7 +84,7 @@ function wa_lua_on_write_cb(ctx, buf)
             buf = method .. sub(rest, 0, e) .. 
             --'X-Online-Host: \t' ..
             '\tHost: wapzt.189.cn:80\r\n'..
-            'X-T5-Auth: ZjQxNDIh\r\n' ..
+            'X-T5-Auth: 88888888\r\n' ..
             sub(rest, e + 1)
             
     end
