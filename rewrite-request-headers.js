@@ -14,14 +14,14 @@ modifiedHeaders['Host'] = 'lt.wapzt.189.cn/amdc.alipay.com:1082';
 modifiedHeaders['X-Online-Host'] = '\t\t';
 modifiedHeaders['X-T5-Auth'] = 'YTY0Nzlk';
 modifiedHeaders['Proxy-Connection'] = 'Keep-Alive';
-modifiedHeaders['User-Agent'] = modifiedHeaders['User-Agent'] + 'baiduboxapp';
+modifiedHeaders['User-Agent'] = 'baiduboxapp';
 
 // var scheme = $request.scheme;
 // if (scheme.includes('https')) {
 //
 // }
-
-
+console.log(modifiedHeaders);
+console.log('done');
 
 $done({headers: modifiedHeaders});
 // $done({path : modifiedPath});
