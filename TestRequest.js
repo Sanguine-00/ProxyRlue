@@ -3,17 +3,25 @@ let magicJS = MagicJS(scriptName, "INFO");
 
 
 (() => {
+    window.alert(`进来了`)
+     magicJS.logError(`进来了`)
     let request = null;
     if (magicJS.isRequest) {
         try {
+            
             let obj = JSON.parse(magicJS.request);
             request = {body: JSON.stringify(obj)};
+            
+            window.alert(${request})
             magicJS.logError(`知乎移除推荐页顶部项出现异常：${request}`);
         } catch (err) {
             magicJS.logError(`知乎移除推荐页顶部项出现异常：${err}`);
         }
         return request;
     }
+     magicJS.logError(`出去了`)
+    
+    window.alert(`出去了`)
     if (request) {
         magicJS.done(request);
     } else {
