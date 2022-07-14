@@ -80,7 +80,7 @@ function wa_lua_on_write_cb(ctx, buf)
  
     local host = ctx_address_host(ctx)
     local port = ctx_address_port(ctx)
-    
+    print("\"buf is\"",buf)
     if ( is_http_request(buf) == 1 ) then
             local index = find(buf, '/')
             local method = sub(buf, 0, index - 1)
