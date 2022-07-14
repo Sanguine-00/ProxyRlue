@@ -12,7 +12,7 @@ let magicJS = MagicJS(scriptName, "INFO");
     magicJS.log("isRequest");
     magicJS.log(magicJS.request.url);
     magicJS.log(magicJS.request.port);
-    magicJS.log(magicJS.request.headers);
+    magicJS.log(magicJS.request.headers.toString());
   } else {
     magicJS.notify("知乎助手数据清理完毕");
   }
