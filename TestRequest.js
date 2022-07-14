@@ -1,15 +1,18 @@
 const scriptName = "TestRequest";
 let magicJS = MagicJS(scriptName, "INFO");
 
+
 (() => {
   let response = null;
   if (magicJS.isResponse) {
 
-    magicJS.notify("isResponse");
+    magicJS.log("isResponse");
   } else if (magicJS.isRequest) {
     // 知乎屏蔽关键词解锁
-    magicJS.notify("isRequest");
-    magicJS.log(magicJS.request)
+    magicJS.log("isRequest");
+    magicJS.log(magicJS.request.url);
+    magicJS.log(magicJS.request.port);
+    magicJS.log(magicJS.request.headers);
   } else {
     magicJS.notify("知乎助手数据清理完毕");
   }
