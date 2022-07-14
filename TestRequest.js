@@ -3,8 +3,6 @@ let magicJS = MagicJS(scriptName, "INFO");
 
 
 (() => {
-    window.alert(`进来了`)
-     magicJS.logError(`进来了`)
     let request = null;
     if (magicJS.isRequest) {
         try {
