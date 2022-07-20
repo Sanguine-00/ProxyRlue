@@ -1,0 +1,10 @@
+vmess = cloudnproxy.baidu.com:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-cloudnproxy.baidu.com
+vmess = 180.97.93.202:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-180.97.93.202
+vmess = 180.97.104.168:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-180.97.104.168
+vmess = 110.242.70.69:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-110.242.70.69
+vmess = 14.215.179.244:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-14.215.179.244
+vmess = 110.242.70.68:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-110.242.70.68
+vmess = 220.181.7.1:443, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-220.181.7.1
+vmess = 157.255.78.51, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-157.255.78.51
+vmess = 220.181.33.174, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-220.181.33.174
+vmess = 157.0.148.53, method=none, password=, obfs=ws, obfs-host=wapzt.189.cn, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, tag=百度直连-157.0.148.53
