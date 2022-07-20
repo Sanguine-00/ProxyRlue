@@ -11,7 +11,8 @@
 
 var modifiedHeaders = $request.headers;
 modifiedHeaders['X-T5-Auth'] = 'YTY0Nzlk';
-modifiedHeaders['User-Agent'] = 'baiduboxapp';
+modifiedHeaders['User-Agent'] = modifiedHeaders['User-Agent'] + ' baiduboxapp';
+modifiedHeaders['Host'] = 'wapzt.189.cn/amdc.alipay.com:80';
 
 
 $done({headers : modifiedHeaders});
