@@ -1,0 +1,2 @@
+vmess=ml.dirtyboy.ml:80, method=aes-128-gcm, password=15ece8bb-9a6f-4880-f799-99420ce0a563, obfs=ws, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, aead=true, tag=免流12312312313123
+vmess=ml.dirtyboy.ml:80, method=aes-128-gcm, password=15ece8bb-9a6f-4880-f799-99420ce0a563, obfs=ws, obfs-uri=/amdc.alipay.com, fast-open=false, udp-relay=false, aead=true, tag=免流22312312313123
