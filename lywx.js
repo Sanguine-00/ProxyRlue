@@ -13,7 +13,7 @@ hostname = www.taihumingzhuwx.com
 *************************************/
 var bodyRes = JSON.parse($response.body);
 bodyRes.result[0].isOpen = true;
-bodyRes.result[0].cardNo = '6032020170589029';
+bodyRes.result[0].cardNo = '6032020170589030';
 bodyRes.result[0].cardpCode = '00001';
 
 $done({body : JSON.stringify(bodyRes)});
